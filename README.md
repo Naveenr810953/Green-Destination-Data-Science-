@@ -1,7 +1,7 @@
 # 📊 Employee Attrition Analysis at Green Destinations
 
 A comprehensive **data analysis project** using Python to identify key factors driving employee attrition at Green Destinations travel agency. This project analyzes HR survey data to uncover trends and provide actionable insights for reducing turnover.
-     
+         
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=python&logoColor=white)
