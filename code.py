@@ -12,7 +12,7 @@ def load_data(file_path):
     """Load and verify the dataset"""
     try:
         df = pd.read_csv(file_path)
-        print("Data loaded successfully!")
+        print("Data loaded successfully!")   
         print(f"Dataset shape: {df.shape}\n")
         return df
     except FileNotFoundError:
