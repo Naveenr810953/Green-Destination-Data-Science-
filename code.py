@@ -13,7 +13,7 @@ def load_data(file_path):
     try:
         df = pd.read_csv(file_path)
         print("Data loaded successfully!")   
-        print(f"Dataset shape: {df.shape}\n")
+        print(f"Dataset shape: {df.shape}\n")  
         return df
     except FileNotFoundError:
         print(f"Error: File '{file_path}' not found. Please check the file path.")
