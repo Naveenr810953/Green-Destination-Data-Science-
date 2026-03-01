@@ -10,7 +10,7 @@ plt.rcParams['figure.figsize'] = (10, 6)
 
 def load_data(file_path):  
     """Load and verify the dataset"""  
-    try:
+    try:  
         df = pd.read_csv(file_path)
         print("Data loaded successfully!")   
         print(f"Dataset shape: {df.shape}\n")     
