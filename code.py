@@ -25,7 +25,7 @@ def load_data(file_path):
 def analyze_attrition(df):
     """Main analysis function"""
     if df is None:
-        return
+        return 
     
     # 1. Calculate and display Attrition Rate
     print("\n" + "="*50)
