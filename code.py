@@ -34,7 +34,7 @@ def analyze_attrition(df):
     
     attrition_rate = df['Attrition'].value_counts(normalize=True) * 100
     print(f"\nAttrition Rate:\n{attrition_rate.to_string()}\n")
-    
+      
     # Visualize attrition rate 
     plt.figure(figsize=(8, 5))
     attrition_rate.plot(kind='bar', color=['#4CAF50', '#F44336'])
